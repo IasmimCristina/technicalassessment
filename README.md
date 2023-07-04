@@ -1,5 +1,35 @@
-# MyNotes
+![banners-gihub-final](https://user-images.githubusercontent.com/100351576/198029195-06625761-f2a2-4e25-8729-e6ad58541c57.gif)
 
+***
+
+<div align="center">
+
+# ✏️MyNotes✏️
+
+</div>
+
+
+![Captura de tela de 2023-07-04 00-45-04](https://github.com/IasmimCristina/technicalassessment/assets/100351576/dad79bf0-7d87-4684-84e4-8f9e0d04e201)
+
+> Projeto feito a fim de completar o desafio técnico relacionado à Admint.
+> Meu primeiro contato com o Framework7 e com a sua documentação.
+
+# 🗒️Telas do projeto e suas versões responsivas🗒️
+![Captura de tela de 2023-07-04 00-44-34](https://github.com/IasmimCristina/technicalassessment/assets/100351576/a3ad9c5d-77b8-4298-bb6e-6a597a4d6355)
+![Captura de tela de 2023-07-04 00-44-45](https://github.com/IasmimCristina/technicalassessment/assets/100351576/a598bf84-065c-4072-9a71-e245f9205c2b)
+![Captura de tela de 2023-07-04 00-45-40](https://github.com/IasmimCristina/technicalassessment/assets/100351576/5580b363-8f38-4903-8448-67481abff230)
+![Captura de tela de 2023-07-04 00-45-55](https://github.com/IasmimCristina/technicalassessment/assets/100351576/b9665302-8549-45a7-81d5-84c54988ad8b)
+![Captura de tela de 2023-07-04 00-46-03](https://github.com/IasmimCristina/technicalassessment/assets/100351576/47763183-87eb-40b9-841c-5cd50947bbd0)
+
+
+# 👀Descrição👀
+
+- Uma aplicação somente com o FRONTEND que visa salvar anotações dos usuários permitindo que os mesmos possam criar uma conta e ver suas antigas anotações.
+- O projeto possui quatro telas principais: Login, Register, HomePage e Hero.
+- O projeto está responsivo em todas as suas páginas.
+- Possui Scrolagem customizada.
+
+# Abaixo estão os comandos padrão de um projeto Framework7:
 ## Framework7 CLI Options
 
 Framework7 app created with following options:
@@ -38,36 +68,21 @@ npm install
 * 🔧 `dev` - run development server
 * 🔧 `build` - build web app for production
 
-## Vite
+---
 
-There is a [Vite](https://vitejs.dev) bundler setup. It compiles and bundles all "front-end" resources. You should work only with files located in `/src` folder. Vite config located in `vite.config.js`.
-## Assets
+<div align="center">
 
-Assets (icons, splash screens) source images located in `assets-src` folder. To generate your own icons and splash screen images, you will need to replace all assets in this directory with your own images (pay attention to image size and format), and run the following command in the project directory:
+## 🔗 Links 🕶️
 
-```
-framework7 assets
-```
+</div>
 
-Or launch UI where you will be able to change icons and splash screens:
-
-```
-framework7 assets --ui
-```
+<div align="center">
+      
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ias-cristina)
+      
+</div>
 
 
+---
 
-## Documentation & Resources
-
-* [Framework7 Core Documentation](https://framework7.io/docs/)
-
-
-
-* [Framework7 Icons Reference](https://framework7.io/icons/)
-* [Community Forum](https://forum.framework7.io)
-
-## Support Framework7
-
-Love Framework7? Support project by donating or pledging on:
-- Patreon: https://patreon.com/framework7
-- OpenCollective: https://opencollective.com/framework7
+![banners-gihub-final](https://user-images.githubusercontent.com/100351576/198029195-06625761-f2a2-4e25-8729-e6ad58541c57.gif)
