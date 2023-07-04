@@ -1,0 +1,177 @@
+<template>
+  <div class="page page-general" data-name="form">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title title-form">Create your account, it's easy</div>
+      </div>
+    </div>
+    <div class="page-content register-page">
+      <span class="form-info-title">Enter your info below</span>
+      <div class="list list-strong-ios list-dividers-ios list-outline-ios">
+        <ul>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Name</div>
+                <div class="item-input-wrap">
+                  <input type="text" placeholder="Your name" />
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">E-mail</div>
+                <div class="item-input-wrap">
+                  <input type="email" placeholder="E-mail" />
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Password</div>
+                <div class="item-input-wrap">
+                  <input type="password" placeholder="Password" />
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Phone</div>
+                <div class="item-input-wrap">
+                  <input type="tel" placeholder="Phone" />
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Gender</div>
+                <div class="item-input-wrap">
+                  <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Nonbinary</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Birth date</div>
+                <div class="item-input-wrap">
+                  <input
+                    type="date"
+                    placeholder="Birth day"
+                    value="2014-04-30"
+                  />
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="align-top">
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Write down your bio</div>
+                <div class="item-input-wrap">
+                  <textarea placeholder="Tell us  about yourself"></textarea>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <span class="form-ask"
+        >What you'll most write about using the app? <br />
+        [This question is only here with the purpose of enhancing the user's
+        expererience and app development.]</span
+      >
+      <div class="list list-strong-ios list-outline-ios list-dividers-ios">
+        <ul>
+          <li>
+            <label class="item-checkbox item-content">
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Books"
+                checked="checked"
+              />
+              <i class="icon icon-checkbox"></i>
+              <div class="item-inner">
+                <div class="item-title">Books</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="item-checkbox item-content">
+              <input type="checkbox" name="checkbox" value="Movies List" />
+              <i class="icon icon-checkbox"></i>
+              <div class="item-inner">
+                <div class="item-title">Movies List</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="item-checkbox item-content">
+              <input type="checkbox" name="checkbox" value="Food Recipes" />
+              <i class="icon icon-checkbox"></i>
+              <div class="item-inner">
+                <div class="item-title">Food Recipes</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="item-checkbox item-content">
+              <input type="checkbox" name="checkbox" value="Tasks" />
+              <i class="icon icon-checkbox"></i>
+              <div class="item-inner">
+                <div class="item-title">Tasks</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="item-checkbox item-content">
+              <input type="checkbox" name="checkbox" value="Original stories" />
+              <i class="icon icon-checkbox"></i>
+              <div class="item-inner">
+                <div class="item-title">Original stories</div>
+              </div>
+            </label>
+          </li>
+        </ul>
+        <a
+          class="button button-fill fill-form-from-data account-btn register-btn"
+          href="/home/"
+          >Proceed</a
+        >
+      </div>
+    </div>
+
+    <footer class="hero-footer">
+      ©️ 2010 - 2023 MyNotes Inc | All Rights Reserved
+    </footer>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

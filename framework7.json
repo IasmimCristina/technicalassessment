@@ -1,0 +1,18 @@
+{
+  "cwd": "/iasLinux/estudos_Ias/gitEgithub/technicalassessment",
+  "type": [
+    "web"
+  ],
+  "name": "MyNotes",
+  "framework": "core",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}

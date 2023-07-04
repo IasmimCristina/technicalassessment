@@ -1,0 +1,444 @@
+/* Reset css */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* --------- */
+
+/* Variables */
+
+:root {
+  /* Colors */
+  --primary-color: #220000;
+  --secondary-color: #63ccca;
+  --white: #f1f1f1;
+  --highlight: #ec4e20;
+
+  /* Transparency */
+
+  --secondary-transparent: rgba(101, 113, 83, 0.2);
+}
+
+/* All pages */
+
+/* Scroll bars */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--highlight);
+  border-radius: 1rem;
+  border: solid 2px var(--primary-color);
+}
+/* ---- */
+.page {
+  background-color: var(--white);
+}
+
+/* Page HERO */
+
+.upper-decoration {
+  height: 5vh;
+  background-color: var(--primary-color);
+}
+
+/* Titles */
+
+.hero-title {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.welcome-text {
+  font-size: 2.5rem;
+  margin-top: 20vh;
+}
+
+.slogan-text {
+  opacity: 0.8;
+
+  font-size: 1.2rem;
+  margin-top: 5vh;
+}
+
+/* Buttons */
+
+.buttons-wrapper {
+  margin-top: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.hero-button {
+  border-radius: 5rem;
+  color: var(--primary-color);
+  border: solid 1px var(--primary-color);
+  width: 25vw;
+  max-width: 200px;
+  font-size: 1rem;
+  height: 2.6rem;
+}
+
+.register {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.hero-button:hover {
+  transition: all 0.3s;
+  color: var(--white);
+  background-color: var(--highlight);
+}
+
+/* Footer */
+
+.hero-footer {
+  background-color: var(--primary-color);
+  color: var(--white);
+  height: 5vh;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-style: italic;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsivity */
+
+@media (max-width: 600px) {
+  .welcome-text {
+    font-size: 1.5rem;
+  }
+  .slogan-text {
+    font-size: 0.8rem;
+  }
+
+  .hero-footer {
+    font-size: 0.8rem;
+  }
+}
+
+/* ---------- */
+
+/* PAGE LOGIN */
+
+.page-general {
+  background-color: var(--primary-color);
+}
+.navbar-inner {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+.navbar-inner .title-form {
+  font-weight: 700;
+  margin: 0 auto;
+}
+.left .back .icon {
+  color: var(--primary-color);
+}
+
+.left .back .if-not-md {
+  color: var(--highlight);
+}
+/* Form */
+.page-content {
+  background-color: var(--white);
+  height: 40vh;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 25vh;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.page-content .list {
+  text-align: center;
+}
+
+.page-content .form-info-title {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+#my-form ul {
+  padding: 1rem;
+  display: flex;
+
+  gap: 2vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#my-form ul li input {
+  color: var(--white);
+  padding: 5px;
+}
+
+.item-input .item-inner .item-title {
+  color: var(--highlight);
+}
+
+.item-input {
+  padding: 0;
+  margin: 0;
+}
+
+.item-input .item-inner {
+  width: 100%;
+  margin: 0;
+}
+
+.account-btn {
+  background-color: var(--highlight);
+  width: 25vw;
+  border-radius: 2rem;
+  border: solid 1px var(--highlight);
+  margin: 0 auto;
+  font-size: 1rem;
+  height: 2.5rem;
+}
+
+.account-btn:hover {
+  background-color: var(--white);
+  border: solid 1px var(--highlight);
+  color: var(--highlight);
+}
+
+@media (max-width: 600px) {
+  .navbar-inner .title-login {
+    font-size: 1rem;
+  }
+  .page-content {
+    height: 55vh;
+    width: 90%;
+  }
+  .page-content .form-info-title {
+    font-size: 1.5rem;
+  }
+
+  #my-form ul {
+    flex-direction: column;
+  }
+}
+
+/* ------------ */
+
+/* PAGE REGISTER */
+
+.page-content.register-page {
+  height: 60vh;
+}
+
+.page-content .form-ask {
+  color: var(--primary-color);
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.account-btn.register-btn {
+  margin-top: 5vh;
+}
+
+/* HOMEPAGE  */
+
+/* Nav bar */
+
+.navbar .navbar-inner {
+  background-color: #5a2e2e;
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+}
+.navbar .navbar-inner .title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.page-content.home-page {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+}
+
+.block p {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* Note styling */
+
+.note-wrapper {
+  color: var(--white);
+  border: solid 1px var(--primary-color);
+  width: 35rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.note-wrapper .text-group {
+  padding: 10px;
+
+  display: flex;
+  gap: 4rem;
+  text-align: center;
+  height: 12rem;
+}
+
+.note-wrapper .text-group .note-title {
+  color: var(--highlight);
+  font-weight: 700;
+  width: 250px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-wrapper .text-group .note-info {
+  color: var(--primary-color);
+  text-align: end;
+}
+
+.note-wrapper .text-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.note-wrapper .text-buttons button {
+  border-radius: 2rem;
+  font-size: 1rem;
+  display: flex;
+  gap: 5px;
+}
+
+.note-wrapper .text-buttons button:last-child {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+.note-wrapper .text-buttons button:nth-child(2) {
+  background-color: rgb(107, 0, 0);
+}
+
+.note-wrapper .text-buttons button:hover,
+.note-wrapper .text-buttons button:last-child:hover {
+  background-color: var(--highlight);
+  color: var(--white);
+}
+
+/* --------- */
+
+/* Buttons */
+
+.block.grid-gap {
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-content .block .button-note-page {
+  font-size: 1rem;
+  border-radius: 3rem;
+}
+.page-content .block .button-note-page:hover {
+  height: 3rem;
+  opacity: 0.8;
+}
+
+/* ----------- */
+
+/* Pop up */
+
+#my-popup {
+  height: 400px;
+}
+#my-popup form {
+  background-color: var(--primary-color);
+  height: 100%;
+}
+
+#my-popup .popup-btn {
+  margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+  .page-content.home-page {
+    width: 95%;
+    height: 65%;
+  }
+
+  /* Note styling */
+  .note-wrapper {
+    width: 20rem;
+    height: 30rem;
+    padding: 0.8rem;
+  }
+
+  .note-wrapper .text-group {
+    padding: 0px;
+    flex-direction: column;
+    gap: 2rem;
+    height: 20rem;
+  }
+
+  .note-wrapper .text-group .note-title {
+    width: auto;
+    font-size: 1rem;
+  }
+
+  .note-wrapper .text-group .note-info {
+    text-align: center;
+  }
+
+  .note-wrapper .text-buttons {
+    gap: 0.5rem;
+    margin-top: 0rem;
+  }
+
+  .note-wrapper .text-buttons button {
+    font-size: 0.8rem;
+    display: flex;
+    gap: 2px;
+  }
+
+  /* --------- */
+}
