@@ -36,7 +36,7 @@ Framework7 app created with following options:
 
 ```
 {
-  "cwd": "/iasLinux/estudos_Ias/gitEgithub/technicalassessment",
+  "cwd": "/...",
   "type": [
     "web"
   ],
